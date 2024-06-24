@@ -26,7 +26,7 @@ function salom(){
     else if( obj.operator == "*"){
         result  = obj.first * obj.second
     }
-    else if (obj.operator == "/"){
+    else if (obj.operator == "/" || obj.operator == ":"){
         result  = obj.first / obj.second
     }
 
